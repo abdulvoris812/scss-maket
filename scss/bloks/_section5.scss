@@ -1,0 +1,39 @@
+/** @format */
+
+.section5 {
+	padding: 25px 0;
+}
+.sec5card h2 {
+	margin-left: 120px;
+	margin-top: -100px;
+}
+.sec5card h3 {
+	margin-left: 120px;
+	margin-top: 15px;
+}
+.sec5box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.sec_title {
+  font-weight: 100;
+	font-size: 25px;
+	line-height: 30px;
+  color: #2A2A2A;
+}
+
+.sec_text {
+  color: #2A2A2A;
+}
+
+@media (max-width:745px) {
+  .sec5box {
+    justify-content: space-around;
+  }
+
+  .sec5card {
+    margin: 20px;
+  }
+}

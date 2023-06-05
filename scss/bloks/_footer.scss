@@ -1,0 +1,32 @@
+footer{
+  padding: 30px 0;
+  background-color: #191919;
+  margin-top: 25px;
+}
+.footer-inner{
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  flex-wrap: wrap;
+}
+.foter-card p{
+  max-width: 300px;
+  color: white;
+  margin-top: 15px;
+}
+.foter-card h2{
+  color: white;
+}
+.input{
+  width: 320px;
+}
+
+
+@media (max-width:800px){
+  .footer-inner{
+    justify-content: space-around;
+  }
+  .foter-card{
+    margin-top: 25px;
+  }
+}

@@ -1,0 +1,38 @@
+/** @format */
+
+.hero6 {
+	text-align: center;
+  padding: 25px 0;
+}
+
+.hero6_title {
+	font-weight: 900;
+	font-size: 34px;
+	line-height: 50px;
+	color: #2a2a2a;
+  padding: 10px 0;
+}
+
+.hero6_ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero6_li {
+	margin-right: 20px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 36px;
+	color: #8e8e8e;
+  padding: 10px 0;
+  &:hover {
+    color: #2a2a2a;
+  }
+}
+
+@media (max-width:450px) {
+  .hero6_ul {
+    display: none;
+  }
+}
